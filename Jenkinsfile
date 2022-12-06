@@ -5,8 +5,8 @@ pipeline {
             steps {
                 sh "ls"
                 sh "pwd"
-                sh "chmod +x ./task1/build_script.sh"
-                sh "./task1/build_script.sh"
+                sh "chmod +x build_script.sh"
+                sh "./build_script.sh"
                 sh "echo 'yay'"
             }
         }
